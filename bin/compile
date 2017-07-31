@@ -44,7 +44,7 @@ indent() {
 
 echo "-----> Install ffmpeg"
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-32bit-static.tar.xz"
+DOWNLOAD_URL="http://ffmpeg.org/releases/ffmpeg-0.10.1.tar.gz"
 
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
